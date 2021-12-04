@@ -33,10 +33,10 @@ h1 {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  /* position: relative;
+  position: relative;
   animation-name: rouge;
   animation-duration: 2s;
-  animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 }
 
 @keyframes rouge {
@@ -52,10 +52,10 @@ h1 {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  /* position: relative;
+  position: relative;
   animation-name: bleu;
   animation-duration: 2s;
-  animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 }
 
 @keyframes bleu {
@@ -71,16 +71,16 @@ h1 {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  /* position: relative;
-  animation-name: bleu;
+  position: relative;
+  animation-name: black;
   animation-duration: 2s;
-  animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 }
 
-@keyframes bleu {
+@keyframes black {
   0% {left:0px; top:200px}
   25% {left:0px; top:200px}
   50% {left:0px; top:0px}
   75% {left:200px; top:0px}
-  100% {left:200px; top:0px}
+  100% {left:200px; top:200px}
 }
